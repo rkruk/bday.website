@@ -20,16 +20,16 @@
 		<div id="content">
 			<div id="code">
 				<span class="comments">/**</span><br />
-				<span class="space"/><span class="comments">* Today, the 27th day of April, is your birthday.</span><br />
+				<span class="space"/><span class="comments">* Today, the (add_day_here)th day of (add_month_here), is your birthday.</span><br />
 				<span class="space"/><span class="comments">* So I created a page to celebrate this extraordinary day.</span><br />
 				<span class="space"/><span class="comments">* That page will show you a script 'will.sh'.</span><br />
 				<span class="space"/><span class="comments">*/</span><br />
-				birthday@girl ~ $ >> <span class="keyword">cd love && sh </span> will.sh(<span class="string">"Jola"</span>);<br />
-				<span class="comments">// April 27th, when the bell rang, your age increased </span><br />
+				birthday@girl ~ $ >> <span class="keyword">cd love && sh </span> will.sh(<span class="string">"(add_Birthday_Person_Name)"</span>);<br />
+				<span class="comments">// (add_Month_Day), when the bell rang, your age increased </span><br />
 				Date currentTime = <span class="keyword">new</span> Date(); <br />
 				SimpleDateFormat formatter = <span class="keyword">new</span> SimpleDateFormat(<span class="string">"yyyy-MM-dd HH:mm:ss"</span>);<br />
 				String dateString = formatter.format(currentTime);<br />
-				if( dateString.equals(<span class="string">"2017-04-27 00:00:00"</span>) ){</br>
+				if( dateString.equals(<span class="string">"add_year-month-day 00:00:00"</span>) ){</br>
 					u.age ++;</br>
 				}</br>
 				<span class="comments">// O! she doth teach the torches to burn bright</span><br />
@@ -39,13 +39,13 @@
 
 				<span class="keyword">new</span> Thread (){<br />
 				@Override </br>
-				<span class="comments">// My love I wish you</span><br />
+				<span class="comments">// I wish you</span><br />
 				while(true){</br>
 				<span class="comments">// happiness,</span><br />
 				u.happiness ++;</br>
 				<span class="comments">// strength,</span><br />
 				u.strength ++;</br>
-				<span class="comments">// awesome photos with fantastic props and models,</span><br />
+				<span class="comments">// more awesome things,</span><br />
 				u.photos ++;</br>
 			    <span class="comments">// and everything you wish can be achieved.</span><br />
 				}.start()</br>
