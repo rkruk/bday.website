@@ -20,7 +20,7 @@
 		<div id="content">
 			<div id="code">
 				<span class="comments">/**</span><br />
-				<span class="space"/><span class="comments">* Today, the (add_day_here)th day of (add_month_here), is your birthday.</span><br />
+				<span class="space"/><span class="comments">* Today, the (add_day_here)the day of (add_month_here), is your birthday.</span><br />
 				<span class="space"/><span class="comments">* So I created a page to celebrate this extraordinary day.</span><br />
 				<span class="space"/><span class="comments">* That page will show you a script 'will.sh'.</span><br />
 				<span class="space"/><span class="comments">*/</span><br />
@@ -46,7 +46,7 @@
 				<span class="comments">// strength,</span><br />
 				u.strength ++;</br>
 				<span class="comments">// more awesome things,</span><br />
-				u.photos ++;</br>
+				u.more_awesome_things ++;</br>
 			    <span class="comments">// and everything you wish can be achieved.</span><br />
 				}.start()</br>
 				<span class="comments">// The last thing I want say, boring and ordinary, is:</span><br />
@@ -81,7 +81,8 @@
 		var offsetX = $("#loveHeart").width() / 2;
 		var offsetY = $("#loveHeart").height() / 2 - 55;
 		var together = new Date();
-		together.setFullYear(1981,4, 27);
+		<!-- Example date: 1908.04.08-->
+		together.setFullYear(1908,4, 08);
 		together.setHours(8);
 		together.setMinutes(0);
 		together.setSeconds(0);
